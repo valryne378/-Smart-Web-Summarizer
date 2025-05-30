@@ -114,3 +114,6 @@ Summary:
         except Exception as e:
             st.error("An error occurred during summarization.")
             st.exception(e)
+
+st.markdown("---")
+st.markdown("<div style='text-align: center; color: gray;'>Created by Priyank 💡</div>", unsafe_allow_html=True)
